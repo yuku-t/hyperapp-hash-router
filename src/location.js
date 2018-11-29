@@ -29,7 +29,7 @@ export default {
     }
     addEventListener("hashchange", handleHashChange)
     return function() {
-      removeEventListener("hashchange", handleLocationChange)
+      removeEventListener("hashchange", handleHashChange)
     }
   }
 }
